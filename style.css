@@ -1,0 +1,231 @@
+
+#header{background-color: yellow;
+        margin-bottom: 100px;
+        border: 2px double black;
+        border-radius: 5px;
+        box-shadow: 4px 4px 10px black;
+}
+
+
+
+#header a{padding:5px;
+    margin: 5px;
+    text-decoration: none;
+     
+    }
+    
+a:hover{color: black}
+
+
+#header>p{display:flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+         
+}
+
+input:hover{background:rgb(255, 255, 204);}
+input:focus{background:rgb(204, 255, 255);} 
+
+#main{margin-left:10px;
+      border: 2px solid rgb(230 230 230);
+      min-height: 800px;
+}
+
+
+#footer{
+    margin-top: 100px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px double black;
+    border-radius: 5px;
+
+    box-shadow: 4px 4px 10px black;
+}
+
+
+
+
+h1{
+    text-align: center;
+    color:red;
+    
+}
+
+.footer-selection{
+    padding:10px;
+    vertical-align: top;
+    
+}
+
+.footer-selection a{
+    text-decoration: none;
+}
+
+
+#hole{
+    border: 2px solid rgb(230 230 230);
+       text-align: left;
+       min-height: 450px;
+       margin:5px;
+       padding: 10px;
+       border-radius: 20px;
+      background :rgb(230, 230, 230);
+      
+       
+}
+
+  product{font-size:25px;}
+
+
+@media(max-width:640px){
+    h1{ color: red;
+        font-size: 50px;
+        text-shadow: 5px 5px 5px black; }
+    #header a{
+        font-size: 15px;
+        font-weight: 600; 
+          }
+          
+   .footer-selection>h3{ 
+       font-size:10px;
+       font-weight: 600;   }                
+    
+    .footer-selection>p , 
+    .footer-selection>a {
+        font-size: 10px;
+    }
+    
+    body{display:flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+    }
+    
+    button{
+        font-size: 15px;
+    }
+    
+    #hole , 
+    #Total , 
+    #calculator{
+                min-width: 80vw;
+    }
+    
+    product{font-size:25px;}
+   
+}
+
+
+@media(min-width:641px){
+    
+    #hole>h1,
+    #Total>h1,
+    #calculator>h1{
+        font-size: 100px;
+        text-shadow: 5px 5px 5px black;
+    }
+    
+    #header a{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+  .footer-selection>h3 {
+          font-size:25px;
+          font-weight: 600;   }                
+    
+    .footer-selection>p , 
+    .footer-selection>a {
+        font-size: 25px;
+    }
+    
+    body{display:flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          
+    }
+    
+    
+    #hole , 
+    #Total , 
+    #calculator{min-height:900px;
+                min-width: 900px;
+    }
+    
+    button{
+        font-size: 20px;
+    }
+    
+    product{font-size:50px;}
+}
+
+
+
+
+#Total{border: 2px solid rgb(230 230 230);
+       text-align: left;
+       min-height: 600px;
+       margin:5px;
+       padding: 10px;
+       border-radius: 20px;
+      background :rgb(230, 230, 230);
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+       
+}
+
+button{background:rgb(179, 255, 204);
+       border:2px solid rgb(179, 255, 204);
+       border-radius: 10px;
+       padding: 5px;
+       box-shadow: 2px 2px 5px black;
+}
+
+body {
+
+background-image: url('https://images .unsplash.com/photo -1503264116251 -35a269479413?auto= format&fit=crop&w=1350 &q= 80');
+
+background-position: center;
+
+background-size: cover;
+
+background-repeat: no-repeat; }
+
+.gap{display:flex;
+    gap: 5px;
+}
+
+
+
+.buttons{display:flex;
+         flex-direction: flex-start;
+         gap: 5px;
+         flex-wrap: wrap;
+}
+
+input:hover{background:red;}
+input:focus{background:rgb(204, 255, 255);} 
+
+#calculator{border: 2px solid rgb(230 230 230);
+            background: rgb(230 230 230);
+            border-radius: 10px;
+            text-align: left;
+            min-height: 400px;
+            padding: 10px;
+            margin:5px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            
+}
+
+
+
+
+
+
+
+
