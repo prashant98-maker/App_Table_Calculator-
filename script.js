@@ -76,7 +76,7 @@ showProduct(products);
 let num = +document.getElementById("num").value;
   let tab = "" ;
   
-  
+
   
   for(let x=1; x<=10 ; x++){
 tab += `<p> ${num} × ${x}= ${num*x}</p>`;
